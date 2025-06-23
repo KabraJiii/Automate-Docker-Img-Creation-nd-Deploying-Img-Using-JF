@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/priyam930/Docker-Jenkins-pipeline.git'
+                git branch: 'main', url: 'https://github.com/KabraJiii/Automate-Docker-Img-Creation-nd-Deploying-Img-Using-JF'
 
             }
         }
